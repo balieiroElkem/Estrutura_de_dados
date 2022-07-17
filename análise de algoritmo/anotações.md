@@ -28,15 +28,33 @@ Para Knuth (apud Ziviani, 1971), a área de análise de algoritmos possui dois t
 #### Exemplo 1:
 ```java
 
-int calculamenor(int A[], int n) {
-   int menor = A[0];
+int calculaMenor(int a[], int n) {
+   int menor = a[0];
 
    for (int i = 1; i < n; ++i) {
-      if (A[i] < menor)
-         menor = A[i];
+      if (a[i] < menor)
+         menor = a[i];
    }
 
    return menor;
 }
+
+```
+<p align="Justify">Na função <strong>calculaMenor</strong> mostrada, a função de complexidade de tempo <i>T(n)</i> é o número de comparações entre os elementos de <i>a</i>, visto que, para encontrar o menor elemento do vetor, é preciso mostrar que cada um dos <i>n - 1</i> elementos é menor do que algum outro, e para isso gasta-se pelo menos <i>n - 1</i> comparações. Logo, <i>T(n) = n - 1</i>. </p>
+<p align="justify">O tempo de execução de um algoritmo depende principalmente do tamanho da entrada de dados. No exemplo anterior, o tempo de execução é uniforme para qualquer tamanho de entrada <i>n</i>. Há algoritmos, porém, que dependem de outros fatores, como os de ordenação, em que o algoritmo gastará menos tempo se a entrada estiver quase ordenada. </p>
+
+
+#### Exemplo 2:
+<p align="justify">Considere um arquivo contendo registros de dados. A busca mais conhecida é a sequencial. Nesse caso, o algoritmo não se comporta de maneira uniforme como no exemplo do cálculo do menor mostrado anteriormente. Em situações como esta, identificam-se três casos: pior caso, melhor caso e caso médio. O <i>pior caso</i> corresponde ao maior tempo de execução sobre todas as entradas de tamanho <i>n</i>. O <i>melhor caso</i> corresponde ao menor tempo de execução sobre todas as entradas de tamanho <i>n</i>. O </i>caso médio</i> corresponde à média dos tempos de execução do algoritmo sobre todas as entradas de tamanho <i>n</i>. </p>
+
+<p align="justify">Dessa forma, no caso médio leva-se em consideração uma distribuição de probabilidades, o que é uma suporsição feita sobre a entrada. Comumente supõe-se que todas as entradas são igualmente prováveis, contudo, como essa suposição nem sempre é verdadeira, a análise do caso médio é mais difícil de se calcular do que as análises de pior e melhor caso. </p>
+
+<p align="justify">No problema da busca sequencial, a função de complexidade de tempo <i>T</i> é calculada em função do número de registros consultados no arquivo. Logo, o melhor caso da busca sequencial acontece quando o registro a ser procurado é o primeiro a ser consultado. Já o pior caso acontece quando o registro a ser procurado é o último a ser consultado ou mesmo quando o registro não é encontrado no arquivo. </p>
+
+```
+
+Pior   caso: T(n) = n.
+Melhor caso: T(n) = 1.
+Caso  médio: T(n) = (n + 1) / 2
 
 ```
