@@ -80,3 +80,7 @@ T(n) = (n + 1)/2
 
 
 <p align="justify">Na segunda linha do cálculo anterior, aparece um somatório de termos (1 + 2 + 3 + ... + n), que é uma prograssão aritmética (PA) de razão 1. Como se pode observar, o tempo de execução de um algoritmo aumenta à medida que o tamanho da entrada <i>n</i> do problema aumenta. No caso do problema para calcular o menor elemento de um vetor, o número de comparações realizadas aumentará à medida que o tamanho de <i>n</i> do vetor aumentar. </p>
+
+
+## Elementos da análise assintótica
+
