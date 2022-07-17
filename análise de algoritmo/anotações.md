@@ -84,3 +84,8 @@ T(n) = (n + 1)/2
 
 ## Elementos da análise assintótica
 
+
+
+
+#
+### Estrutura de dados: algoritmos, análise da complexidade e implementações JAVA E C/C++ <br> <i>Ana Fernanda Gomes Ascencio & Graziela Santos de Araújo</i>
