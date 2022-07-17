@@ -87,5 +87,6 @@ T(n) = (n + 1)/2
 
 
 
-#
-### Estrutura de dados: algoritmos, análise da complexidade e implementações JAVA E C/C++ <br> <i>Ana Fernanda Gomes Ascencio & Graziela Santos de Araújo</i>
+# REFERÊNCIA
+<p align="center" width="300px">Estrutura de dados: Algoritmos, análise da complexdiade e implementações JAVA e C/C++</p>
+<p align="center" width="300px"><i>Ana Fernada Gomes Ascencio & Graziela Santos de Araújo </i></p>
