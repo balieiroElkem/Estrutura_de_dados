@@ -7,8 +7,8 @@
 
 ### Ex: Função para calcular o menor número de um vetor
 
-<code> 
 função:
+<code>
 	int calcularMenor(int a[], int n) {
 		int menor = a[0];
 
