@@ -27,14 +27,12 @@ Para Knuth (apud Ziviani, 1971), a área de análise de algoritmos possui dois t
 
 #### Exemplo 1:
 <code>
-   int calculamenor(int A[], int n) {
-      int menor = A[0];
+int calculamenor(int A[], int n) {
+   int menor = A[0];
 
-      for (int i = 1; i < n; ++i) {
-         if (A[i] < menor)
-            menor = A[i];
-      }
-
-      return menor;
+   for(int i = 1; i < n; ++i) {
+      if (A[i] < menor)
+         menor = A[i];
    }
+}
 </code>
