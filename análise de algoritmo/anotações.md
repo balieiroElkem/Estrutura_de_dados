@@ -26,9 +26,8 @@ Para Knuth (apud Ziviani, 1971), a área de análise de algoritmos possui dois t
 <p align="justify">O tempo de execução de um algoritmo será representado por uma função de custo <i>T</i> onde <i>T(n)</i> é a medida do tempo necessário para executar um algoritmo para um problema de tamanho <i>n</i>. Logo, <i>T</i> é chamada <i>função de complexidade de tempo</i> do algoritmo. Se <i>T(n)</i> é a medida de memória necessária para a execução do algoritmo, então <i>T</i> é chamada <i>função de complexidade de espaço.</i> Conforme Ziviani(2004), é importante enfatizar que <i>T(n)</i> não representa diretamente o tempo de execução, mas o número de vezes que certa operação relevante é executada. </p>
 
 #### Exemplo 1:
-<code>
 
-int calculamenor(int A[], int n) {
+<code>int calculamenor(int A[], int n) {
    int menor = A[0];
 
    for (int i = 1; i < n; ++i) {
@@ -37,6 +36,4 @@ int calculamenor(int A[], int n) {
    }
 
    return menor;
-}
-
-</code>
+}</code>
