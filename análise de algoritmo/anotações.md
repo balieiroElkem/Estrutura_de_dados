@@ -58,3 +58,25 @@ Melhor caso: T(n) = 1.
 Caso  médio: T(n) = (n + 1) / 2
 
 ```
+
+<p align="justify">Para encontrar o tempo do caso médio, considere <i>p_i</i> a probabilidade de procurar o <i>i</i>-ésimo registro. Como para encontrar o <i>i</i>-ésimo registro são necessárias <i>i</i> comparações, temos que: </p>
+
+```
+
+T(n) = 1 * p_1 + 2 * p_2 + 3 * p_3 + ... + n * p_n
+
+```
+
+<p align="justify">Considerando que a probabilidade de cada um dos registros a ser encontrado é 1/n, temos que: </p>
+
+```
+
+T(n) = 1 * 1/n + 2 * 1/n + 3 * 1/n + ... + n * 1/n
+T(n) = 1/n ( 1 + 2 + 3 + ... + n)
+T(n) = 1/n [(n * (n+1))/2]
+T(n) = (n + 1)/2
+
+```
+
+
+<p align="justify">Na segunda linha do cálculo anterior, aparece um somatório de termos (1 + 2 + 3 + ... + n), que é uma prograssão aritmética (PA) de razão 1. Como se pode observar, o tempo de execução de um algoritmo aumenta à medida que o tamanho da entrada <i>n</i> do problema aumenta. No caso do problema para calcular o menor elemento de um vetor, o número de comparações realizadas aumentará à medida que o tamanho de <i>n</i> do vetor aumentar. </p>
