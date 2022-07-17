@@ -83,6 +83,9 @@ T(n) = (n + 1)/2
 
 
 ## Elementos da análise assintótica
+<p align="justify">Tais notações são utilizadas para representar o comportamento assintótico das funções de complexidade de tempo dos algoritmos, bem como relacionar o comportamento das funções de complexidade de dois algoritmos. </p>
+
+<p align="justify"><strong>DEFINIÇÃO:</strong><i>Uma função g(n) domina assintoticamente outra função f(n) se existem duas constantes positivas c e n_0 tais que, para n >= n_0, temos |f(n)|<code><=</code>c . |g(n)|. </i> </p>
 
 
 
